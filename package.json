@@ -1,5 +1,5 @@
 {
-  "name": "@saltcorn/tabulator",
+  "name": "@saltcorn/tabulatorante",
   "version": "0.8.5",
   "description": "Grid editing view based on Tabulator",
   "main": "index.js",
