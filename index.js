@@ -1251,6 +1251,7 @@ const run = async (table_id, viewname, cfg, state, extraArgs, queriesObj) => {
         ${responsiveLayout ? `responsiveLayout: "${responsiveLayout}",` : ""}
         columns,
         pagination:${!!pagination_enabled},
+        movableRows: true,
         paginationSize:${
           !pagination_enabled && ajax_load ? 100 : pagination_size || 20
         },
